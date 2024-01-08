@@ -34,7 +34,7 @@ jobs:
           # export SEMGREP_REPO_NAME='beehive-monorepo'
           # semgrep ci --exclude='projects/*'
 
-          echo ${{ env.APP_NAME }}
+          echo ' App NAME ${{ env.APP_NAME }}'
           SEMGREP_REPO_NAME= ${{ env.APP_NAME }}
           echo "${SEMGREP_REPO_NAME}"
           #Updated 
